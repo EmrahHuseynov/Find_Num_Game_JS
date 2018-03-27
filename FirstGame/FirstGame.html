@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FindNum</title>
+    <link rel="stylesheet" href="FirstGame.css">
+</head>
+<body>
+   <div class="mainboard">
+       <h1 id="date"></h1>
+       <div class="gameabout">
+           <h1 class="gamename">FindNumber</h1>
+       <ul>
+           <li>1.Pc özlüyündə bir rəqəm tutacaq.</li>
+           <li>2.Bu rəqəm haqqında sənə iki cür ipucu verəcək,PC sənə rəqəmin tək yaxud cüt,daha sonra isə 50-dən böyük ya da kiçik olduğunu yazacaq.</li>    
+           <li>3.Pc səndən bu rəqəmi neçə cəhdə tapacağını soruşacaq və sənə o qədər şans verəcək</li>
+       </ul>
+       <h1>Uğurlar!!!</h1>
+       <button type="submit" id="start" onclick="start()">OYUNA BASLA</button>
+       </div>
+       <div id="steps">
+        <h1>Siz neçə addımda doğru cavabı tapacağınızı düşünürsünüz?</h1>
+       <input id="sans" placeholder="Rəqəmi bura yazın" type="text"> <br>
+       <button type="submit" class="sansver" onclick="sansver()">Gediş al</button>
+       </div>
+        <div id="game">
+        <h1 id="tekcut"></h1>
+        <h1 id="elliden"></h1>
+       <input id="search" placeholder="Rəqəmi bura yazın" type="text"> <br>
+       <button type="submit" id="yoxla" onclick="yoxla() ">Yoxla</button>
+       <h1 id="inputted">Yazacağınız rəqəm:</h1>
+       <h1 id="laststep"></h1>
+       <h1 id="result"></h1>
+       
+        </div>
+       <h1 id="end"></h1>
+       
+       
+       
+       
+       
+   </div>
+    <script src="FirstGame.js"></script>
+</body>
+</html>
